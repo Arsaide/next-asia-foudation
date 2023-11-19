@@ -5,7 +5,7 @@ import TheFooter from "@/component/TheFooter/TheFooter";
 import { Open_Sans } from 'next/font/google';
 
 const openSans = Open_Sans({
-    weight: ['600', '700'],
+    weight: ['600', '700', '400'],
     style: 'normal',
     subsets: ['latin'],
     display: 'swap',
@@ -25,7 +25,6 @@ export default function RootLayout({children,}: {
         <div className="wrapper">
             <TheHeader/>
             <main className='main'>
-                main
                 {children}
             </main>
             <TheFooter/>

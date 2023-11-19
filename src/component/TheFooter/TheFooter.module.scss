@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--dark-gray-color);
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__links {
+    display: flex;
+    padding: 80px 0 40px 0;
+  }
+
+  &__leftLinks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-right: 160px;
+  }
+
+  &__rightLinks {
+    display: flex;
+    column-gap: 25px;
+  }
+}
+
+.link {
+  color: #fff;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.socialNetwork {
+  height: 35px;
+}
+
+.copyright {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 187.5%;
+  color: #fff;
+  padding: 18px 0;
+}
