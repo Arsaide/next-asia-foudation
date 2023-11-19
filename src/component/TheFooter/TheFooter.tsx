@@ -2,7 +2,6 @@ import styles from './TheFooter.module.scss';
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
-// import {ReactComponent as facebookIcon} from "/facebookIcon.svg";
 
 const links = [
     {
@@ -13,7 +12,7 @@ const links = [
     {
         id: 2,
         title: 'Careers and opportunities',
-        href: '/works',
+        href: '/work',
     },
     {
         id: 3,
@@ -89,11 +88,11 @@ const TheFooter = () => {
                                 <Link className={styles.socialNetwork}
                                       key={item.id}
                                       href={item.href}>
-                                    {/*<Image*/}
-                                    {/*    src={item.src}*/}
-                                    {/*    alt={item.alt}*/}
-                                    {/*    width={35}*/}
-                                    {/*    height={35}/>*/}
+                                    <Image
+                                        src={item.src}
+                                        alt={item.alt}
+                                        width={35}
+                                        height={35}/>
 
                                 </Link>
                             ))}
