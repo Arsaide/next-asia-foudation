@@ -1,0 +1,15 @@
+.button {
+  display: inline-flex;
+  border-radius: 3px;
+  border: 2px solid #2F6FB1;
+  padding: 10px 20px;
+  color: #2F6FB1;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color, color .3s ease-out 0s;
+  &:hover {
+    background-color: rgb(47, 111, 177);
+    color: white;
+  }
+}

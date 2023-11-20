@@ -6,7 +6,7 @@ import { Open_Sans } from 'next/font/google';
 
 const openSans = Open_Sans({
     weight: ['600', '700', '400'],
-    style: 'normal',
+    style: ['normal', 'italic'],
     subsets: ['latin'],
     display: 'swap',
 })
