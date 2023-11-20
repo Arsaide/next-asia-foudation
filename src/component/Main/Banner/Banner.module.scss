@@ -1,9 +1,8 @@
 .banner {
   position: relative;
   padding: 200px 0;
-  background-image: url(/banner.jpg);
+  background-image: url('/banners/main-banner.jpg');
   background-position: 50%;
-  background-size: 100%;
   background-size: cover;
   &::before {
     content: '';
