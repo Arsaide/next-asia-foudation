@@ -1,7 +1,7 @@
 .ourWorks {
   position: relative;
   padding: 60px 0;
-  margin: 40px 0;
+  margin-top: 40px;
   background-image: url('/banners/map.jpg');
   background-position: 50%;
   background-size: cover;
@@ -46,7 +46,7 @@
   }
 }
 
-@media (max-width: 425.98px) {
+@media (max-width: 465.98px) {
   .ourWorks__list:not(:last-child) {
     padding-right: 0;
   }
