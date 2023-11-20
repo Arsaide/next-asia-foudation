@@ -1,0 +1,21 @@
+.description {
+  margin: 33px 0px 300px 0px;
+  &__container{
+    font-size: 17px;
+  }
+
+  &__title {
+    color: var(--gray-text);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.83;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 400;
+    line-height: 1.46;
+  }
+}
