@@ -43,7 +43,7 @@ const TheHeader = () => {
                             alt='The Asia Foundation Logotype'
                             width={32}
                             height={32}/>
-                        <h1 className={styles.logo__title}>The Asia Foundation</h1>
+                        <span className={styles.logo__title}>The Asia Foundation</span>
                     </Link>
                     <div className={styles.header__links}>
                         {links.map((link) => (
