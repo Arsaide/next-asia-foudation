@@ -11,15 +11,15 @@ const Approach = () => {
                 <article className={styles.paragraph}>
                     <h3 className={styles.paragraph__title}>Our approach</h3>
                     <p className={styles.paragraph__text}>
-                        Internationally recognized for our commitment to the region's
+                        Internationally recognized for our commitment to the region&apos;s
                         development, we bring together local individuals,
-                        communities, and governments who are shaping Asia's future. Our approach is nuanced and
+                        communities, and governments who are shaping Asia&apos;s future. Our approach is nuanced and
                         multi-dimensional. A
-                        particular strength is our ability to navigate Asia's political context for reform and
+                        particular strength is our ability to navigate Asia&apos;s political context for reform and
                         development. Engaging our
                         longstanding and ever-expanding networks, nurturing new talent and rising young leaders, and
                         drawing on our
-                        deep regional knowledge, we play a catalytic role in advancing Asia's development and social
+                        deep regional knowledge, we play a catalytic role in advancing Asia&apos;s development and social
                         progress.
                     </p>
                     <div className={styles.paragraph__buttons}>
@@ -56,7 +56,7 @@ const Approach = () => {
                         impacted by the lack
                         of access to justice, by rising inequality, pervasive subnational conflicts, challenges of
                         urbanization, violence against
-                        women, and a closing space for civil society. Left unaddressed, these challenges threaten Asia's
+                        women, and a closing space for civil society. Left unaddressed, these challenges threaten Asia&apos;s
                         many political and
                         economic gains and undermine its future prospects.
                     </p>
@@ -82,17 +82,20 @@ const Approach = () => {
                 </article>
                 <article className={styles.skills}>
                     <h3 className={styles.skills__title}>Our mission</h3>
-                    <p className={styles.skills__text}>The Asia Foundation improves lives, expands opportunities, and
+                    <p className={styles.skills__text}>
+                        The Asia Foundation improves lives, expands opportunities, and
                         helps societies flourish across a dynamic and
                         developing Asia. We work with innovative leaders and communities to build effective institutions
                         and advance
                         path breaking reforms. Together with our partners, we are committed to Asia's continued
                         development as a
-                        peaceful, just, and thriving region of the world.</p>
+                        peaceful, just, and thriving region of the world.
+                    </p>
                 </article>
                 <article className={styles.skills}>
                     <h3 className={styles.skills__title}>Our values</h3>
-                    <p className={styles.skills__text}>Our core values are a shared foundation manifested in each of our
+                    <p className={styles.skills__text}>
+                        Our core values are a shared foundation manifested in each of our
                         different country offices and local settings. These principles are a common thread to guide our
                         programs, our partnerships, our institutional culture, and our approach and decisions made by
                         our staff.
@@ -123,14 +126,14 @@ const Approach = () => {
                 </article>
 
                 <p className={styles.quote}>
-                    All material, including text and images, appearing on The Asia Foundation's website are the property
+                    All material, including text and images, appearing on The Asia Foundation&apos;s website are the property
                     of The Asia Foundation, or used by permission. The materials
                     contained in this site may not be modified or altered in any way. You may not copy or distribute any
                     photograph, illustration, artwork, video, audio, or other graphic
                     material contained on this site for any use without first obtaining written permission from The Asia
                     Foundation and any other applicable copyright owner(s). You may not
                     copy, distribute, enter into a database, display, perform, create derivative works of, transmit, or
-                    in any way exploit any part ofour site. The Asia Foundation's name and
+                    in any way exploit any part ofour site. The Asia Foundation&apos;s name and
                     logo are registered trademarks of The Asia Foundation. Our privacy policy
                 </p>
             </div>
