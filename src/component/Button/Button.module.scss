@@ -1,0 +1,19 @@
+.button {
+  position: relative;
+  color: var(--gray-text);
+  border-radius: 3px;
+  border: 0;
+  background: #FFF;
+  padding: 12px 22px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color .2s ease-out 0s;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+
+  &:hover {
+    background-color: #dbdbdb;
+  }
+}
