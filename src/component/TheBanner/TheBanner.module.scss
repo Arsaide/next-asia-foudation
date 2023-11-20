@@ -1,0 +1,32 @@
+.banner {
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 420px;
+  &__title {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    border: 6px solid #FFF;
+    background: rgba(0, 0, 0, 0.60);
+
+    padding: 23px 25px;
+  }
+}
+
+@media (max-width: 424.98px){
+  .banner__title {
+    padding: 23px 10px;
+  }
+}

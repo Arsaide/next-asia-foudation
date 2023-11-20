@@ -40,31 +40,31 @@ const socialNetworks = [
     {
         id: 1,
         alt: 'The Asia Foundation Facebook',
-        src: '/facebookIcon.svg',
+        src: '/icons/facebookIcon.svg',
         href: 'https://www.facebook.com/TheAsiaFoundation/',
     },
     {
         id: 2,
         alt: 'The Asia Foundation X',
-        src: '/twitterIcon.svg',
+        src: '/icons/twitterIcon.svg',
         href: 'https://twitter.com/Asia_Foundation',
     },
     {
         id: 3,
         alt: 'The Asia Foundation LinkedIn',
-        src: '/linkedInIcon.svg',
+        src: '/icons/linkedInIcon.svg',
         href: 'https://www.linkedin.com/company/the-asia-foundation/',
     },
     {
         id: 4,
         alt: 'The Asia Foundation Instagram',
-        src: '/instagramIcon.svg',
+        src: '/icons/instagramIcon.svg',
         href: 'https://www.instagram.com/theasiafoundation/',
     },
     {
         id: 5,
         alt: 'The Asia Foundation YouTube',
-        src: '/youtubeIcon.svg',
+        src: '/icons/youtubeIcon.svg',
         href: 'https://www.youtube.com/@AsiaFoundation',
     },
 ]
