@@ -87,7 +87,7 @@ const Approach = () => {
                         helps societies flourish across a dynamic and
                         developing Asia. We work with innovative leaders and communities to build effective institutions
                         and advance
-                        path breaking reforms. Together with our partners, we are committed to Asia's continued
+                        path breaking reforms. Together with our partners, we are committed to Asia&apos;s continued
                         development as a
                         peaceful, just, and thriving region of the world.
                     </p>
