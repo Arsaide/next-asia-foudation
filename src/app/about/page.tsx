@@ -8,12 +8,12 @@ import Approach from "@/component/Pages/About/Approach/Approach";
 
 const AboutPage = () => {
     return (
-        <section className={styles.about}>
-            <TheBanner text='where we work' img='banners/aboutUs-banner.jpg'/>
+        <>
+            <TheBanner text='about the asia foundation' img='banners/aboutUs-banner.jpg'/>
             <Description/>
             <Book/>
             <Approach/>
-        </section>
+        </>
     );
 };
 

@@ -1,0 +1,46 @@
+.lists {
+  margin: 42px 0px 100px 0px;
+  &__container {
+    color: var(--gray-text);
+  }
+}
+
+.item {
+  &:not(:last-child) {
+    padding-bottom: 40px;
+  }
+  &__lists {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  &__list {
+    text-align: center;
+  }
+
+  &__listItem {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .item {
+    &__lists {
+      flex-direction: column;
+      justify-content: center;
+      gap: 50px;
+    }
+  }
+}

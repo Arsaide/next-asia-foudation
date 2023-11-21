@@ -8,7 +8,7 @@ const Book = () => {
             <div className={styles.book__container}>
                 <h3 className={styles.book__title}>Annual Report Book</h3>
                 <div className={styles.book__iframe}>
-                    <iframe src="//v.calameo.com/?bkcode=007529063f37db7e901a9&mode=mini"
+                    <iframe src="//v.calameo.com/?bkcode=001137694da9eae420bae&mode=mini&clickto=view&clicktarget=_blank"
                             frameBorder="0"
                             scrolling="no"
                             allowTransparency
