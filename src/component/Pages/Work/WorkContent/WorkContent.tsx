@@ -1,6 +1,6 @@
-import styles from './Content.module.scss';
+import styles from './WorkContent.module.scss';
 import React from 'react';
-const Content = () => {
+const WorkContent = () => {
     return (
         <section className={styles.lists}>
             <div className={styles.lists__container}>
@@ -55,4 +55,4 @@ const Content = () => {
     );
 };
 
-export default Content;
+export default WorkContent;

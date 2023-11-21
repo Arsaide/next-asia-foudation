@@ -22,7 +22,7 @@ const links = [
     {
         id: 4,
         title: 'Contact us',
-        href: '/about',
+        href: '/contact',
     },
     {
         id: 5,

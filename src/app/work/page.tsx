@@ -2,13 +2,13 @@ import styles from './page.module.scss'
 
 import React from 'react';
 import TheBanner from "@/component/TheBanner/TheBanner";
-import Content from "@/component/Pages/Work/Content/Content";
+import WorkContent from "@/component/Pages/Work/WorkContent/WorkContent";
 
 const OurWorkPage = () => {
     return (
        <>
            <TheBanner text='where we work' img='banners/work-banner.jpg' />
-           <Content />
+           <WorkContent />
        </>
     );
 };

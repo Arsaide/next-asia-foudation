@@ -2,6 +2,7 @@
   --gray-text: #666;
   --dark-gray-color: #595959;
   --blue-text: #2F6FB1;
+  --blue-hover-text: #5da1e8;
   --black-text: #000;
 }
 
@@ -71,6 +72,9 @@ button,
 textarea,
 select {
   font: inherit;
+  background: none;
+  border: 0;
+  outline: none;
 }
 
 .wrapper {
