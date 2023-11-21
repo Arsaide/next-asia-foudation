@@ -1,31 +1,24 @@
 'use client';
-import styles from './ContactForm.module.scss'
+    import styles from './ContactForm.module.scss'
 import React, {useState, ChangeEvent, FormEvent, useEffect} from 'react';
 
 const ContactForm = () => {
     const [formSubmitted, setFormSubmitted] = useState(false);
 
-    // Состояния для полей формы
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [surname, setSurname] = useState('');
     const [subscribe, setSubscribe] = useState(false);
 
-    // Обработчик изменения полей формы
     const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value, type } = e.target;
 
-        // Дополнительная проверка для полей с именем и фамилией: запрещаем ввод цифр
         if ((name === 'name' || name === 'surname') && /\d/.test(value)) {
-            return; // Если введены цифры, ничего не делаем
+            return;
         }
-
-        // Проверка, что поле является чекбоксом
         if (type === 'checkbox') {
-            // Явное указание, что e.target - HTMLInputElement
             setSubscribe((e.target as HTMLInputElement).checked);
         } else {
-            // Обновление соответствующего состояния в зависимости от типа поля
             if (name === 'email') {
                 setEmail(value);
             } else if (name === 'name') {
@@ -36,16 +29,12 @@ const ContactForm = () => {
         }
     };
 
-    // Обработчик отправки формы
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        // Проверка, что все поля заполнены
         if (email && name && surname) {
-            // Устанавливаем состояние формы как отправленную
             setFormSubmitted(true);
 
-            // Очищаем поля формы
             setEmail('');
             setName('');
             setSurname('');
@@ -55,14 +44,12 @@ const ContactForm = () => {
         }
     };
 
-    // Эффект для удаления сообщения через 10 секунд
     useEffect(() => {
         if (formSubmitted) {
             const timeoutId = setTimeout(() => {
                 setFormSubmitted(false);
             }, 4000);
 
-            // Очищаем таймаут, чтобы избежать лишних вызовов при размонтировании компонента
             return () => clearTimeout(timeoutId);
         }
     }, [formSubmitted]);

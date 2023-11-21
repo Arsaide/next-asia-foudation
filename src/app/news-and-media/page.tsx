@@ -1,12 +1,13 @@
 import styles from './page.module.css'
 
 import React from 'react';
+import Error from "@/component/Error/Error";
 
 const NewsMediaPage = () => {
     return (
-        <div>
-            news
-        </div>
+       <>
+           <Error text={'"News and Media"'}/>
+       </>
     );
 };
 

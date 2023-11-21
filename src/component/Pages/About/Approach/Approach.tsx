@@ -8,7 +8,7 @@ const Approach = () => {
     return (
         <section className={styles.approach}>
             <div className={styles.approach__container}>
-                <article className={styles.paragraph}>
+                <div className={styles.paragraph}>
                     <h3 className={styles.paragraph__title}>Our approach</h3>
                     <p className={styles.paragraph__text}>
                         Internationally recognized for our commitment to the region&apos;s
@@ -27,8 +27,8 @@ const Approach = () => {
                         <AboutButton text='Financials' url='/'/>
                         <AboutButton text='Safeguarding' url='/'/>
                     </div>
-                </article>
-                <article className={styles.paragraph}>
+                </div>
+                <div className={styles.paragraph}>
                     <h3 className={styles.paragraph__title}>Strategy 2025</h3>
                     <div className={styles.paragraph__content}>
                         <div className={styles.paragraph__text}>
@@ -46,8 +46,8 @@ const Approach = () => {
                             <Image src='/about/book.jpg' alt='book' width={245} height={345}/>
                         </a>
                     </div>
-                </article>
-                <article className={styles.paragraph}>
+                </div>
+                <div className={styles.paragraph}>
                     <h3 className={styles.paragraph__title}>What we do</h3>
                     <p className={styles.paragraph__text}>
                         Our work remains as urgent and relevant today as was when we were established in 1954. The
@@ -63,8 +63,8 @@ const Approach = () => {
                     <div className={styles.paragraph__buttons} style={{justifyContent: 'center'}}>
                         <AboutButton text='Our work' url='/'/>
                     </div>
-                </article>
-                <article className={styles.paragraph}>
+                </div>
+                <div className={styles.paragraph}>
                     <h3 className={styles.paragraph__title}>Our partners</h3>
                     <p className={styles.paragraph__text}>
                         We work closely with a diverse range of bilateral and multilateral development agencies,
@@ -74,13 +74,13 @@ const Approach = () => {
                         offices and making an
                         impact across a dynamic and developing Asia-Pacific.
                     </p>
-                </article>
+                </div>
 
-                <article className={styles.skills}>
+                <div className={styles.skills}>
                     <h3 className={styles.skills__title}>Our vision</h3>
                     <p className={styles.skills__text}>A peaceful, just, and thriving Asia.</p>
-                </article>
-                <article className={styles.skills}>
+                </div>
+                <div className={styles.skills}>
                     <h3 className={styles.skills__title}>Our mission</h3>
                     <p className={styles.skills__text}>
                         The Asia Foundation improves lives, expands opportunities, and
@@ -91,8 +91,8 @@ const Approach = () => {
                         development as a
                         peaceful, just, and thriving region of the world.
                     </p>
-                </article>
-                <article className={styles.skills}>
+                </div>
+                <div className={styles.skills}>
                     <h3 className={styles.skills__title}>Our values</h3>
                     <p className={styles.skills__text}>
                         Our core values are a shared foundation manifested in each of our
@@ -123,7 +123,7 @@ const Approach = () => {
                         <b>Innovating and adapting for impact |</b> We are known for our ability to identify, respond,
                         and iterate rapidly to
                         issues and events affecting the places and communities where we work.</p>
-                </article>
+                </div>
 
                 <p className={styles.quote}>
                     All material, including text and images, appearing on The Asia Foundation&apos;s website are the property
