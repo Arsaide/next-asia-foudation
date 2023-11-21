@@ -16,7 +16,7 @@ const Error = ({text}: Props) => {
                     or use the navigation above to locate the post
                 </p>
                 <div className={styles.error__btns}>
-                    <AboutButton text='Donate' url='/donate'/>
+                    <AboutButton text='Donate' url='/'/>
                     <AboutButton text='About us' url='/about'/>
                     <AboutButton text='Contact us' url='/contact'/>
                 </div>
