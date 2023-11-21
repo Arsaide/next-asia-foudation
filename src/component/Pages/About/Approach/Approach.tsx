@@ -23,9 +23,9 @@ const Approach = () => {
                         progress.
                     </p>
                     <div className={styles.paragraph__buttons}>
-                        <AboutButton text='Careers' url='/'/>
-                        <AboutButton text='Financials' url='/'/>
-                        <AboutButton text='Safeguarding' url='/'/>
+                        <AboutButton text='Careers' url='/work'/>
+                        <AboutButton text='Financials' url='/financial'/>
+                        <AboutButton text='Safeguarding' url='/safeguarding'/>
                     </div>
                 </div>
                 <div className={styles.paragraph}>
@@ -61,7 +61,7 @@ const Approach = () => {
                         economic gains and undermine its future prospects.
                     </p>
                     <div className={styles.paragraph__buttons} style={{justifyContent: 'center'}}>
-                        <AboutButton text='Our work' url='/'/>
+                        <AboutButton text='Our work' url='/work'/>
                     </div>
                 </div>
                 <div className={styles.paragraph}>
@@ -134,7 +134,7 @@ const Approach = () => {
                     Foundation and any other applicable copyright owner(s). You may not
                     copy, distribute, enter into a database, display, perform, create derivative works of, transmit, or
                     in any way exploit any part ofour site. The Asia Foundation&apos;s name and
-                    logo are registered trademarks of The Asia Foundation. Our privacy policy
+                    logo are registered trademarks of The Asia Foundation.
                 </p>
             </div>
         </section>

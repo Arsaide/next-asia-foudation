@@ -49,7 +49,7 @@ const contacts = [
         street: '',
         tel: 'Resource Development',
         email: 'giving@asiafondation.org',
-        url: '/donate',
+        url: '/',
         buttonTitle: 'Donate now',
     },
     {

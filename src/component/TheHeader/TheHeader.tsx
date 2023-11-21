@@ -27,7 +27,7 @@ const links = [
     },
     {
         id: 5,
-        url: '/donate',
+        url: '/',
         title: 'Donate',
     },
 ]

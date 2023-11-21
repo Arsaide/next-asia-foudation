@@ -1,19 +1,17 @@
-import styles from './page.module.css'
-
 import React from 'react';
 import Error from "@/component/Error/Error";
 import {Metadata} from "next";
 
-
 export const metadata: Metadata = {
-    title: "Get involved",
+    title: "Financial information",
 };
-const InvolvedPage = () => {
+
+const Financial = () => {
     return (
         <>
-            <Error text={'"Get involved"'}/>
+            <Error text={'"Financial information"'} />
         </>
     );
 };
 
-export default InvolvedPage;
+export default Financial;

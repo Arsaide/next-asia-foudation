@@ -17,7 +17,7 @@ const links = [
     {
         id: 3,
         title: 'Donate',
-        href: '/donate',
+        href: '/',
     },
     {
         id: 4,
@@ -27,12 +27,12 @@ const links = [
     {
         id: 5,
         title: 'Financial information',
-        href: '/',
+        href: '/financial',
     },
     {
         id: 6,
         title: 'Our safeguarding commitment',
-        href: '/',
+        href: '/safeguarding',
     },
 ]
 
