@@ -9,6 +9,7 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "About us",
+    description: 'Learn more about The Asia Foundation: our mission, vision and values; who we are; our approach; what we do; and how we work with our partners.',
 };
 const AboutPage = () => {
     return (

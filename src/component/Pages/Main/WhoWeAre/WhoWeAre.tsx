@@ -17,7 +17,7 @@ const WhoWeAre = () => {
                     regional
                     and international relations.
                 </p>
-                <Button text='Donate' url='/'/>
+                <Button text='Donate' url='/donate'/>
             </div>
         </section>
     );

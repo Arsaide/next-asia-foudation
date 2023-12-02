@@ -66,6 +66,7 @@ const Highlights = () => {
                                 alt={item.alt}
                                 width={530}
                                 height={310}
+                                loading="lazy"
                                 className={styles.post__img}/>
                             <span className={styles.post__category}>{item.category}</span>
                             <h3 className={styles.post__title}>
@@ -80,7 +81,8 @@ const Highlights = () => {
                         className={styles.support__img}
                         src='/highlights/supporting.jpg'
                         alt='Supports Leaders for a Better World'
-                        fill={true}/>
+                        fill={true}
+                        loading="lazy"/>
                     <h2 className={styles.support__title}>
                         The Asia Foundation Supports Leaders for a Better World
                     </h2>

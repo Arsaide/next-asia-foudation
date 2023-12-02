@@ -17,7 +17,7 @@ const links = [
     {
         id: 3,
         title: 'Donate',
-        href: '/',
+        href: '/donate',
     },
     {
         id: 4,
@@ -92,7 +92,8 @@ const TheFooter = () => {
                                         src={item.src}
                                         alt={item.alt}
                                         width={35}
-                                        height={35}/>
+                                        height={35}
+                                        loading="lazy"/>
 
                                 </Link>
                             ))}

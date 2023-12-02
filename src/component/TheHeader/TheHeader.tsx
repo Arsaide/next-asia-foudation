@@ -1,6 +1,5 @@
 import styles from './TheHeader.module.scss';
 
-import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 
@@ -27,7 +26,7 @@ const links = [
     },
     {
         id: 5,
-        url: '/',
+        url: '/donate',
         title: 'Donate',
     },
 ]
@@ -42,7 +41,8 @@ const TheHeader = () => {
                             src='/logo.svg'
                             alt='The Asia Foundation Logotype'
                             width={32}
-                            height={32}/>
+                            height={32}
+                            loading="lazy"/>
                         <span className={styles.logo__title}>The Asia Foundation</span>
                     </Link>
                     <div className={styles.header__links}>

@@ -43,7 +43,7 @@ const Approach = () => {
                             </div>
                         </div>
                         <a href='https://asiafoundation.org/wp-content/uploads/2021/11/Asia-Foundation-Strategy2025-Roadmap-for-a-Changing-Asia.pdf'>
-                            <Image src='/about/book.jpg' alt='book' width={245} height={345}/>
+                            <Image src='/about/book.jpg' alt='book' width={245} height={345} loading="lazy"/>
                         </a>
                     </div>
                 </div>
